@@ -56,9 +56,16 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mute);font-si
 <body>
 <div id="app"></div><dialog id="dlg"></dialog>
 <script type="module">
-/* ============ 1. SETTINGS: fill these in (see SETUP.txt) ============ */
-const FIREBASE={apiKey:"",authDomain:"",projectId:"",appId:""};
-const OWNER_EMAIL="you@example.com";   // your Google account email
+const FIREBASE = {
+  apiKey: "AIzaSyBa4eOMaOd2rde7IJD_IBhSI_wZeVG2xhE",
+  authDomain: "jayedmahmud-db425.firebaseapp.com",
+  projectId: "jayedmahmud-db425",
+  storageBucket: "jayedmahmud-db425.firebasestorage.app",
+  messagingSenderId: "464666852343",
+  appId: "1:464666852343:web:46ed3df3c540328c718cf2",
+  measurementId: "G-M1HYFYCQ0T"
+};
+const OWNER_EMAIL = "jayedmahmud18@gmail.com";
 /* ==================================================================== */
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import {getAuth,onAuthStateChanged,GoogleAuthProvider,signInWithPopup,signInWithEmailAndPassword,createUserWithEmailAndPassword,updateProfile,signOut} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
